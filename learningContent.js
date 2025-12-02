@@ -22,7 +22,7 @@ const TIME_FOR_EXAM = "11:00";
     /* amountOfQuestions - max number of questions from the subject that will appear in the test*/
 const DATA = { 
     "רקע על הבה\"ד": {
-        "icon":  "../assets/images/bahad11-ver2.png",
+        "icon":  "/assets/images/bahad11-ver2.png",
         "learningContent": {
         'קצת על הבה"ד...': {
                 "רקע": [ 
@@ -55,7 +55,7 @@ const DATA = {
         },
     },
     "סקירת ההכשרות השונות": {
-        "icon":  "../assets/images/bahad11-ver2.png",
+        "icon":  "/assets/images/bahad11-ver2.png",
         "learningContent": {
             'מגמות הבה"ד': {
                 "מגמת השלמת קצונה": [
@@ -104,7 +104,7 @@ const DATA = {
                     {
                         cardType:"videoAndText",
                         content: " ",
-                        video: '../assets/images/video-pikud.mp4',
+                        video: '/assets/images/video-pikud.mp4',
                     }
                 ],
                 'מגמת משא"ן': [
@@ -245,7 +245,7 @@ const DATA = {
                     {
                         cardType:"videoAndText",
                         content: " ",
-                        video: '../assets/images/video-tash.mp4',
+                        video: '/assets/images/video-tash.mp4',
                     }
                 ]
             }
